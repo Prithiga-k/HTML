@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Social Media survey</title>
+   </head>
+   <body>
+      <section>
+         <h1 align="center">Social Media Survey Form</h1>
+         <form action="/action_page.php" target="_blank">
+            <label for=name>Name </label>
+            <input type="text" name="Name" id="name" placeholder="Ex:Prithi" autocomplete="on" required><br><br>
+            <label for="Age">Age</label>
+            <input type="number" name="age" id="Age" placeholder="Ex:20" required><br><br>
+            <label for="gender">Gender</label>
+            <select name="Gender" id="gender" required>
+               <option value="Male">Male</option>
+               <option value="Female">Female</option>
+               <option value="others">others</option>
+            </select>
+            <br><br>
+            <label for="email">Email</label>
+            <input type="Email" name="Email" id="email" placeholder="ex:abc@gmail.com" required>
+            <br><br>
+            <label for="dob">dateofbirth</label>
+            <input type="date" name="dateofbirth" id="dob" required><br><br>
+            <label>1.How likely are you to recommend it to your family and friends?</label>
+            <select name="Ratings to share social media">
+               <option value="0">0</option>
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">4</option>
+               <option value="5">5</option>
+               <option value="6">6</option>
+               <option value="7">7</option>
+               <option value="8">8</option>
+               <option value="9">9</option>
+               <option value="10">10</option>
+            </select>
+            <br><br>
+            <label>2.Please rate the following social media websites on scale from 0-10</label><br><br>
+            <label for="fb">Facebook</label>
+            <select name="Fb ratings" id="fb">
+               <option value="0">0</option>
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">4</option>
+               <option value="5">5</option>
+               <option value="6">6</option>
+               <option value="7">7</option>
+               <option value="8">8</option>
+               <option value="9">9</option>
+               <option value="10">10</option>
+            </select>
+            <br><br>
+            <label for="insta">Instagram</label>
+            <select name="Instagram ratings" id="insta">
+               <option value="0">0</option>
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">4</option>
+               <option value="5">5</option>
+               <option value="6">6</option>
+               <option value="7">7</option>
+               <option value="8">8</option>
+               <option value="9">9</option>
+               <option value="10">10</option>
+            </select>
+            <br><br>
+            <label for="pin">Pinterst</label>
+            <select name="Pinterest ratings" id="pin">
+               <option value="0">0</option>
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">4</option>
+               <option value="5">5</option>
+               <option value="6">6</option>
+               <option value="7">7</option>
+               <option value="8">8</option>
+               <option value="9">9</option>
+               <option value="10">10</option>
+            </select>
+            <br><br>
+            <label for="in">Linkedin</label>
+            <select name="LinkedIn ratings" id="in">
+               <option value="0">0</option>
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">4</option>
+               <option value="5">5</option>
+               <option value="6">6</option>
+               <option value="7">7</option>
+               <option value="8">8</option>
+               <option value="9">9</option>
+               <option value="10">10</option>
+            </select>
+            <br><br>
+            <label for="utube">Youtube</label>
+            <select name="Youtube ratings" id="utube">
+               <option value="0">0</option>
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">4</option>
+               <option value="5">5</option>
+               <option value="6">6</option>
+               <option value="7">7</option>
+               <option value="8">8</option>
+               <option value="9">9</option>
+               <option value="10">10</option>
+            </select>
+            <br><br>
+            <label for="wapp">WhatsApp</label>
+            <select name="Whatsapp ratings" id="wapp">
+               <option value="0">0</option>
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">4</option>
+               <option value="5">5</option>
+               <option value="6">6</option>
+               <option value="7">7</option>
+               <option value="8">8</option>
+               <option value="9">9</option>
+               <option value="10">10</option>
+            </select>
+            <br><br>
+            <section>
+               <label>3. Which of the following social media website do you currently have an account with</label><br>
+               <input type="checkbox" name="Current accounts" value="Facebook" id="fb">
+               <label for="fb">Faceobok</label><br>
+               <input type="checkbox" name="Current accounts" value="Instagram" id="int">
+               <label for="int">Instagram</label><br>
+               <input type="checkbox" name="Current accounts" value="Twitter" id="tw">
+               <label for="tw">Twitter</label><br>
+               <input type="checkbox" name="Current accounts" value="Linkedin" id="li">
+               <label for="li">Linkedin</label><br>
+               <input type="checkbox" name="Current accounts" value="Tiktok" id="tok">
+               <label for="tok">Tiktok</label><br>
+               <input type="checkbox" name="Current accounts" value="YouTube" id="tube">
+               <label for="tube">YouTube</label><br>
+               <input type="checkbox"   id="any" value="Others:">
+               <label for="any">Other</label>
+               <textarea placeholder="Other social media" name="Current accounts"></textarea> 
+            </section>
+            <br><br>    
+            <section>
+               <label for="often check">4. How often do you check-in to your social media accounts in any given week?</label><br><br>
+               <select name="How often check for social media" id="often check">
+                  <option value="Daily">Daily</option>
+                  <option value="Every other day">Every other day</option>
+                  <option value="Every two days">Every two days</option>
+                  <option value="Once a week">Once a week</option>
+                  <option value="Every hour">Every hour</option>
+               </select>
+            </section>
+            <br><br>             
+            <section>
+               <label>5. In a week, which of the following social media websites do you visit most frequently?</label><br>
+               <input type="checkbox" name="Social media to visit frequently" value="Facebook" id="fbb">
+               <label for="fbb">Faceobok</label><br>
+               <input type="checkbox" name="Social media to visit frequently" value="Instagram" id="inta">
+               <label for="inta">Instagram</label><br>
+               <input type="checkbox" name="Social media to visit frequently" value="Twitter" id="twt">
+               <label for="twt">Twitter</label><br>
+               <input type="checkbox" name="Social media to visit frequently" value="Linkedin" id="lin">
+               <label for="lin">Linkedin</label><br>
+               <input type="checkbox" name="Social media to visit frequently" value="Tiktok" id="tokt">
+               <label for="tokt">Tiktok</label><br>
+               <input type="checkbox" name="Social media to visit frequently" value="YouTube" id="utube">
+               <label for="utube">YouTube</label><br>
+               <input type="checkbox"   id="anyy" value="Others">
+               <label for="anyy">Other</label>
+               <textarea placeholder="Other social media" name="Social media to visit frequently"></textarea>
+            </section>
+            <br>
+            <br>
+            <label >6. What is your go-to device to access your social media feed?</label><br>
+            <input type="radio" name="Device to access social media" id="mob" value="Mobile">
+            <label for="mob">Mobile</label><br>
+            <input type="radio" name="Device to access social media" id="tab" value="Tablet">
+            <label for="tab">Tablet</label><br>
+            <input type="radio" name="Device to access social media" id="lap" value="Laptop">
+            <label for="lap">Laptop</label><br>
+            <input type="radio" name="Device to access social media" id="pc" value="Desktop">
+            <label for="pc">Desktop</label>
+            <br><br>
+            <label for="count">7. How many friends do you have on social media?</label><br>
+            <input type="text" name="Number of friends in social media" id="count" required placeholder="Ex:200 or 1k">
+            <br><br>
+            <label >8. How many friends from your social media website have you met in person?</label><br>
+            <input type="radio" name="Number of friends meet through social media" id="all" value="All of them">
+            <label for="all">All of them</label><br>
+            <input type="radio" name="Number of friends meet through social media" id="most" value="Most of them">
+            <label for="most">Most of them</label><br>
+            <input type="radio" name="Number of friends meet through social media" id="ahalf" value="About half of them">
+            <label for="ahalf">About half of them</label><br>
+            <input type="radio" name="Number of friends meet through social media" id="few" value="A few of them">
+            <label for="few">A few of them</label><br>
+            <input type="radio" name="Number of friends meet through social media" id="none" value="None of them">
+            <label for="none">None of them</label>
+            <br><br>
+            <label>9. On a regular day how many times do you post pictures, comments, etc. on your social media accounts?</label><br>
+            <input type="radio" name="Number of times to post posted or commands etc.." id="ex" value="Extermely often">
+            <label for="ex">Extermely often</label><br>
+            <input type="radio" name="Number of times to post posted or commands etc.." id="very" value="Very often">
+            <label for="very">Very often</label><br>
+            <input type="radio" name="Number of times to post posted or commands etc.." id="mod" value="Moderately often">
+            <label for="mod">Moderately often</label><br>
+            <input type="radio" name="Number of times to post posted or commands etc.." id="slight" value="Slightly often">
+            <label for="slight">Slightly often</label><br>
+            <input type="radio" name="Number of times to post posted or commands etc.." id="notat" value="Not at all often">
+            <label for="notat">Not at all often</label><br><br>
+            <label >10. How often do you use the chat app on your social media accounts?</label><br>
+            <input type="radio" name="How often use the chat app:" id="ext" value="Extermely often">
+            <label for="ext">Extermely often</label><br>
+            <input type="radio" name="How often use the chat app:" id="veryo" value="Very often">
+            <label for="veryo">Very often</label><br>
+            <input type="radio" name="How often use the chat app:" id="mode" value="Moderately often">
+            <label for="mode">Moderately often</label><br>
+            <input type="radio" name="How often use the chat app:" id="slightly" value="Slightly often">
+            <label for="slightly">Slightly often</label><br>
+            <input type="radio" name="How often use the chat app:" id="notatall" value="Not at all often">
+            <label for="notatall">Not at all often</label><br><br>
+            <label >11. Do you use your social media accounts to login to the other websites?</label><br>
+            <input type="radio" name="Social media accounts to login other websites" id="always" value="Always">
+            <label for="always">Always</label><br>
+            <input type="radio" name="Social media accounts to login other websites" id="mosttime"  value="Most of time">
+            <label for="mosttime">Most of time</label><br>
+            <input type="radio" name="Social media accounts to login other websites" id="abouthalf"  value="About half of time">
+            <label for="abouthalf">About half of time</label><br>
+            <input type="radio" name="Social media accounts to login other websites" id="onceever"  value="Once a ever">
+            <label for="onceever">Once a ever</label><br>
+            <input type="radio" name="Social media accounts to login other websites" id="never"  value="Never">
+            <label for="never">Never</label><br><br>
+            <label >12. How many celebrities do you follow on social media?</label><br>  
+            <input type="radio" name="Count of celebraties in socail media" id="ten"  value="0-10">
+            <label for="ten">0-10</label><br>
+            <input type="radio" name="Count of celebraties in socail media" id="fifty"  value="10-50">
+            <label for="fifty">10-50</label><br>
+            <input type="radio" name="Count of celebraties in socail media" id="cent"  value="50-100">
+            <label for="cent">50-100</label><br>
+            <input type="radio" name="Count of celebraties in socail media" id="acent"  value="More than 100">
+            <label for="acent">More than 100</label><br><br>
+            <label >13. On an average how much time do you spend on social media?</label><br>
+            <input type="radio" name="time spent" id="30 mins" value="30 mins">
+            <label for="30 mins">Less than 30 mins</label><br>
+            <input type="radio" name="time spent" id="An hour" value="An hour">
+            <label for="An hour">An hour</label><br>
+            <input type="radio" name="time spent" id="An hour" value="1-2 hrs">
+            <label for="1-2 hrs">1-2 hours</label><br>
+            <input type="radio" name="time spent" id="1-2 hrs" value="3-4 hrs">
+            <label for="3-4 hrs">3-4 hours</label><br>
+            <input type="radio" name="time spent" id="more than 4 hrs" value="more than 4">
+            <label for="more than 4 hrs">More than 4 hours</label><br><br>
+            <label >14. What is your purpose of using social media website?</label><br>
+            <input type="checkbox" name="purpose" id="frnds" value="To make friends">
+            <label for="frnds">To make friends</label><br>
+            <input type="checkbox" name="purpose" id="socialize" value="To socialise casually">
+            <label for="socialize">To socialize casually</label><br>
+            <input type="checkbox" name="purpose" id="find date" value="To find suitable date">
+            <label for="socialize">To find a suitable date</label><br>
+            <input type="checkbox" name="purpose" id="promote" value="To promote products/services">
+            <label for="promote">To promote products/services</label><br>
+            <input type="checkbox" name="purpose" id="Planning" value="Event planning">
+            <label for="Planning">Event planning</label><br>
+            <input type="checkbox" name="purpose" id="Employment" value="To find employment">
+            <label for="Employment">To find employment</label><br>
+            <input type="checkbox" id="any" value="others">
+            <label for="any">Others</label>
+            <textarea placeholder="Please specify" name="purpose"></textarea>
+            <br><br>
+            <label>15. When do you access social media websites?</label><br>
+            <input type="radio" name="Access" id="free time" value="During free time">
+            <label for="free time">During my free times</label> <br>
+            <input type="radio" name="Access" id="work" value="While at school/university/work">
+            <label for="work">While at school/university/work</label> <br>
+            <input type="radio" name="Access" id="ocassions" value="During social occasions">
+            <label for="ocassions">During social occasions</label> <br>
+            <input type="radio" name="Access" id="Mel time" value="During meal times">
+            <label for="meal time">During meal times</label> <br>
+            <input type="radio" name="Access" id="spare time" value="Any spare time">
+            <label for="ocassions">Any spare time</label><br><br>
+            <label >16. Do you check your social media account before going to bed?</label><br>
+            <input type="radio" name="Check social media before going to bed" id="y"  value="Yes">
+            <label for="y">Yes</label><br>
+            <input type="radio" name="Check social media before going to bed" id="n"  value="No">
+            <label for="n">No</label><br><br>
+            <label>17. Has social media affected your relationship with loved ones?</label><br>
+            <input type="radio" name=" social media affected your relationship with loved ones" id="y1"  value="Yes">
+            <label for="y1">Yes</label><br>
+            <input type="radio" name=" social media affected your relationship with loved ones" id="n1"  value="No">
+            <label for="n1">No</label><br>
+            <input type="radio" name=" social media affected your relationship with loved ones" id="notsure"  value="Not sure">
+            <label for="notsure">Not sure</label><br><br>
+            <label>18. Do you consider yourself addicted to social media?</label><br>
+            <input type="radio" name=" consider yourself addicted to social media" id="y2"  value="Yes">
+            <label for="y2">Yes</label><br>
+            <input type="radio" name=" consider yourself addicted to social media" id="n2"  value="No">
+            <label for="n2">No</label><br>
+            <input type="radio" name=" consider yourself addicted to social media" id="notsure1"  value="Not sure">
+            <label for="notsure1">Not sure</label><br><br>
+            <input type="submit" value="submit">
+            <input type="reset">
+         </form>
+      </section>
+   </body>
+</html>
